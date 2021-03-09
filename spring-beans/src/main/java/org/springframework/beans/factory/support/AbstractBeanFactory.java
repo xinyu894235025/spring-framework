@@ -331,6 +331,7 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
 							throw ex;
 						}
 					});
+					//拿到实例
 					bean = getObjectForBeanInstance(sharedInstance, name, beanName, mbd);
 				}
 
