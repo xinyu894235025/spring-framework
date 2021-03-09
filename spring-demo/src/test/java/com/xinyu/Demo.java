@@ -11,6 +11,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Demo {
 
 	public static void main(String[] args) {
+		//1，通过构造方法进行String[] configLocation配置
 		ClassPathXmlApplicationContext aa = new ClassPathXmlApplicationContext("application.xml");
 		DemoConfig config = (DemoConfig)aa.getBean("config");
 		System.out.println(config.getCfgName());
