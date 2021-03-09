@@ -11,9 +11,5 @@
                         http://www.springframework.org/schema/context
                         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="abc" class="com.xinyu.MyContext">
-        <property name="gentle" value="男"/>
-        <property name="name" value="辛宇"/>
-    </bean>
 
 </beans>
