@@ -1,4 +1,4 @@
-package com.xinyu;
+package com.xinyu.getBeanDemo;
 
 /**
  * @Description

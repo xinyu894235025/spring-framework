@@ -95,6 +95,7 @@ public class ProxyFactoryBean extends ProxyCreatorSupport
 	/**
 	 * This suffix in a value in an interceptor list indicates to expand globals.
 	 */
+	// 标记通知器的为全局通知器
 	public static final String GLOBAL_SUFFIX = "*";
 
 
@@ -244,6 +245,7 @@ public class ProxyFactoryBean extends ProxyCreatorSupport
 	 * {@code getObject()} for a proxy.
 	 * @return a fresh AOP proxy reflecting the current state of this factory
 	 */
+	// 创建AOP Proxy代理对象的入口
 	@Override
 	@Nullable
 	public Object getObject() throws BeansException {

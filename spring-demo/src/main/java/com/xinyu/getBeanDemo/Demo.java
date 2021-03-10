@@ -1,6 +1,5 @@
-package com.xinyu;
+package com.xinyu.getBeanDemo;
 
-import org.junit.jupiter.api.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
@@ -15,11 +14,6 @@ public class Demo {
 		ClassPathXmlApplicationContext aa = new ClassPathXmlApplicationContext("application.xml");
 		DemoConfig config = (DemoConfig)aa.getBean("config");
 		System.out.println(config.getCfgName());
-	}
-
-	@Test
-	public void test(){
-		System.out.println("46584651156");
 	}
 
 }

@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-	<bean id="config" class="com.xinyu.DemoConfig">
+	<bean id="config" class="com.xinyu.getBeanDemo.DemoConfig">
 		<property name="cfgName" value="123456798"/>
 	</bean>
 </beans>
