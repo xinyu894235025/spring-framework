@@ -1,6 +1,5 @@
 package com.xinyu;
 
-import org.junit.Test;
 
 /**
  * @Description
@@ -9,7 +8,6 @@ import org.junit.Test;
  */
 public class demo {
 
-	@Test
 	public void test(){
 		System.out.println("54695811498");
 	}
